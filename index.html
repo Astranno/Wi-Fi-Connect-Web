@@ -31,11 +31,11 @@
             };
 
             window.onload = function() {
-                if getUrlParameter(name) != null {
+                if getUrlParameter('connect') != null {
                 <!-- Deep link URL for existing users with app already installed on their device -->
-                    window.location = 'wificonnect://connect?to=' + getUrlParameter('to');
+                    window.location = 'wificonnect://connect?to=' + getUrlParameter('connect');
                 <!-- Download URL (TUNE link) for new users to download the app -->
-                    setTimeout("window.location = 'https://itunes.apple.com/app/apple-store/id1049217112?pt=117762348&ct=qr-connect-" + getUrlParameter('to') + "&mt=8';", 1000);
+                    setTimeout("window.location = 'https://itunes.apple.com/app/apple-store/id1049217112?pt=117762348&ct=qr-connect-" + getUrlParameter('connect') + "&mt=8';", 1000);
                 }
             }
         </script>
