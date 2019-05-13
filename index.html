@@ -22,6 +22,23 @@
         <link rel="stylesheet" href="css/default.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <script>
+            function getUrlParameter(name) {
+                name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+                var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+                var results = regex.exec(location.search);
+                return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+            };
+
+            window.onload = function() {
+                if getUrlParameter(name) != null {
+                <!-- Deep link URL for existing users with app already installed on their device -->
+                    window.location = 'wificonnect://connect?to=' + getUrlParameter('to');
+                <!-- Download URL (TUNE link) for new users to download the app -->
+                    setTimeout("window.location = 'https://itunes.apple.com/app/apple-store/id1049217112?pt=117762348&ct=qr-connect-" + getUrlParameter('to') + "&mt=8';", 1000);
+                }
+            }
+        </script>
     </head>
     <body>
         <!-- preloader -->
