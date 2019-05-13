@@ -11,7 +11,7 @@
 
         window.onload = function() {
         <!-- Deep link URL for existing users with app already installed on their device -->
-            window.location = 'wificonnect://connect?to=' + getUrlParameter('to');
+            window.location = 'wificonnect://connect/' + getUrlParameter('to');
         <!-- Download URL (TUNE link) for new users to download the app -->
             setTimeout("window.location = 'https://itunes.apple.com/app/apple-store/id1049217112?pt=117762348&ct=qr-connect-" + getUrlParameter('to') + "&mt=8';", 1000);
         }
