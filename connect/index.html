@@ -1,26 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script>
-        function getUrlParameter(name) {
-            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-            var results = regex.exec(location.search);
-            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-        };
-
-        // window.onload = function() {
-        //     window.location = 'wificonnect://connect/' + getUrlParameter('to');
-        //     setTimeout("window.location = 'https://itunes.apple.com/app/apple-store/id1049217112?pt=117762348&ct=qr-connect-" + getUrlParameter('to') + "&mt=8';", 1000);
-        // }
-    </script>
+  
 </head>
 <body>
-<iframe style="display:none" height=0 width=0 src="wificonnect://connect/"></iframe>
-<script>
-      setInterval(function () {
-              window.location.replace("https://itunes.apple.com/app/apple-store/id1049217112?pt=117762348");
-      }, 2000);
-</script>
+
 </body>
 </html>
