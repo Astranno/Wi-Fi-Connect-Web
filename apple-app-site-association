@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "H9HL3TFS6J.com.astranno.WiFi-Connect-Dev",
+        "paths": [
+          "/connect/*"
+        ]
+      },
+      {
+        "appID": "H9HL3TFS6J.com.astranno.WiFi-Connect",
+        "paths": [
+          "/connect/*"
+        ]
+      }
+    ]
+  }
+}
