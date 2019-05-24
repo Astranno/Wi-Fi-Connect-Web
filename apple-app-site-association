@@ -6,14 +6,16 @@
         "appID": "H9HL3TFS6J.com.astranno.WiFi-Connect-Dev",
         "paths": [
           "/connect",
-          "/add"
+          "/add",
+          "/user/*"
         ]
       },
       {
         "appID": "H9HL3TFS6J.com.astranno.WiFi-Connect",
         "paths": [
           "/connect",
-          "/add"
+          "/add",
+          "/user/*"
         ]
       }
     ]
