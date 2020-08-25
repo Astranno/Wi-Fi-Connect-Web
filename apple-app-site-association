@@ -8,9 +8,7 @@
        {
          "appID": "H9HL3TFS6J.com.astranno.WiFi-Connect",
          "paths": [
-          "/connect",
-          "/add",
-          "/profile"
+          "*"
         ]
       }
     ]
