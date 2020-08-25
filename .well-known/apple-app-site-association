@@ -1,17 +1,17 @@
 {
-   "appclips": {
-     "apps": ["H9HL3TFS6J.com.astranno.WiFi-Connect"]
-   },
-   "applinks": {
-     "details": [
-       {
-         "appIDs": ["H9HL3TFS6J.com.astranno.WiFi-Connect"],
-         "components": [
-           {
-             "/": "/",
-             "comment": "Matches any url"
-           }
-        
+  "appclips": {
+    "apps": ["H9HL3TFS6J.com.astranno.WiFi-Connect"]
+  },
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["H9HL3TFS6J.com.astranno.WiFi-Connect"],
+        "components": [
+          {
+            "/": "/",
+            "comment": "Matches any url"
+          }
+        ]
       }
     ]
   }
