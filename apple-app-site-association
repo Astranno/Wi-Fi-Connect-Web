@@ -1,13 +1,17 @@
 {
-  “appclips”: {
-    “apps”: [“H9HL3TFS6J.com.astranno.WiFi-Connect”]
-  },
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "H9HL3TFS6J.com.astranno.WiFi-Connect",
-        "paths": [ "*" ]
+   “appclips”: {
+     “apps”: [“H9HL3TFS6J.com.astranno.WiFi-Connect”]
+   },
+   "applinks": {
+     "apps": [],
+     "details": [
+       {
+         "appID": "H9HL3TFS6J.com.astranno.WiFi-Connect",
+         "paths": [
+          "/connect",
+          "/add",
+          "/profile"
+        ]
       }
     ]
   }
